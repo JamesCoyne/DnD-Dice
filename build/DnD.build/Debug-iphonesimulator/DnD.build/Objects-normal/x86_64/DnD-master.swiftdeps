@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "a66a53b92086f7939d5064f49cb502d3"
+build_time: [550900934, 888140000]
+inputs:
+  "/Users/jamescoyne/Documents/xcode/DnD/DnD/ViewController.swift": [550900495, 0]
+  "/Users/jamescoyne/Documents/xcode/DnD/DnD/SecondViewController.swift": [550197219, 0]
+  "/Users/jamescoyne/Documents/xcode/DnD/DnD/AppDelegate.swift": [550213775, 0]
+  "/Users/jamescoyne/Documents/xcode/DnD/DnD/FirstViewController.swift": [550899904, 0]

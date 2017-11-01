@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+    </contributor>
+    <created>2017-06-10T15:38:11</created>
+    <modified>2017-06-10T15:38:11</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="None_002-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.8280242 0.6979252 1 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.8 0.8 0.8 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="None_002-material" name="None_002">
+      <instance_effect url="#None_002-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="GD_mesh_002-mesh" name="GD_mesh.002">
+      <mesh>
+        <source id="GD_mesh_002-mesh-positions">
+          <float_array id="GD_mesh_002-mesh-positions-array" count="60">0.0288679 0.905719 0.01666688 0.758762 -0.286193 -0.404738 0.857321 -0.349999 -0.494974 0 1.05 0 0 0.95 0 0.775672 -0.316667 -0.447835 0.0288679 -0.286193 0.859476 0 -0.349999 0.989949 0 -0.316667 0.895669 0 0.905719 -0.033333 -0.729894 -0.286193 -0.454738 -0.857321 -0.349999 -0.494974 -0.775672 -0.316667 -0.447835 0.729894 -0.286193 -0.454738 -0.0288679 0.905719 0.01666688 -0.0288679 -0.286193 0.859476 -0.758762 -0.286193 -0.404738 0 -0.333333 0.842809 0.729894 -0.333333 -0.421405 -0.729894 -0.333333 -0.421405</float_array>
+          <technique_common>
+            <accessor source="#GD_mesh_002-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GD_mesh_002-mesh-normals">
+          <float_array id="GD_mesh_002-mesh-normals-array" count="144">0.7325404 0.2209457 0.6438692 -0.8446217 -0.5334039 0.045767 0.7325355 0.5334066 0.4229293 -0.8446214 0.2209532 -0.4876418 0.9238777 0.2209451 0.3124637 -0.3826754 -0.5334041 -0.7543473 0.1913449 0.22094 -0.9563329 0.4619293 -0.5333995 0.7085947 0 0.5334004 -0.8458629 0 0.2209241 0.9752911 -0.1913356 0.2209466 -0.9563333 -0.4619322 -0.5334001 0.7085923 -0.9238772 0.2209458 0.3124645 0.3826796 -0.533403 -0.7543459 -0.7325381 0.5334011 0.4229317 0.8446209 0.2209552 -0.4876419 -0.7325366 0.2209406 0.6438753 0.8446213 -0.5334046 0.0457673 -0.1913352 -0.9752886 -0.1104679 -0.4619243 0.8458733 -0.2666917 0 -0.975288 0.2209371 0 0.8458735 0.5333837 0.191334 -0.975289 -0.1104664 0.4619247 0.8458729 -0.2666923 0.7325366 0.2209406 0.6438753 -0.8446213 -0.5334046 0.0457673 0.7325381 0.5334011 0.4229317 -0.8446211 0.2209519 -0.487643 0.9238772 0.2209458 0.3124645 -0.3826786 -0.5334033 -0.754346 0.1913356 0.2209466 -0.9563333 0.4619322 -0.5334001 0.7085923 0 0.5333999 -0.8458632 0 0.2209234 0.9752913 -0.1913449 0.22094 -0.9563329 -0.4619293 -0.5333995 0.7085947 -0.9238777 0.2209451 0.3124637 0.3826745 -0.5334044 -0.7543476 -0.7325355 0.5334066 0.4229293 0.8446213 0.220952 -0.4876425 -0.7325404 0.2209457 0.6438692 0.8446217 -0.5334039 0.045767 -0.191334 -0.975289 -0.1104664 -0.4619247 0.8458729 -0.2666923 0 -0.9752878 0.2209386 0 0.8458736 0.5333836 0.1913352 -0.9752886 -0.1104679 0.4619247 0.8458729 -0.2666923</float_array>
+          <technique_common>
+            <accessor source="#GD_mesh_002-mesh-normals-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GD_mesh_002-mesh-vertices">
+          <input semantic="POSITION" source="#GD_mesh_002-mesh-positions"/>
+        </vertices>
+        <polylist material="None_002-material" count="48">
+          <input semantic="VERTEX" source="#GD_mesh_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#GD_mesh_002-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 2 0 3 0 1 1 4 1 5 1 6 2 2 2 1 2 1 3 8 3 6 3 0 4 7 4 6 4 6 5 4 5 0 5 9 6 11 6 3 6 10 7 4 7 12 7 13 8 11 8 10 8 10 9 5 9 13 9 9 10 2 10 13 10 13 11 4 11 9 11 14 12 7 12 3 12 14 13 8 13 15 13 15 14 11 14 7 14 15 15 12 15 16 15 14 16 11 16 16 16 16 17 4 17 14 17 17 18 2 18 7 18 17 19 5 19 18 19 19 20 2 20 18 20 18 21 12 21 19 21 17 22 11 22 19 22 19 23 8 23 17 23 0 24 1 24 2 24 1 25 0 25 4 25 6 26 7 26 2 26 1 27 5 27 8 27 0 28 3 28 7 28 6 29 8 29 4 29 9 30 10 30 11 30 10 31 9 31 4 31 13 32 2 32 11 32 10 33 12 33 5 33 9 34 3 34 2 34 13 35 5 35 4 35 14 36 15 36 7 36 14 37 4 37 8 37 15 38 16 38 11 38 15 39 8 39 12 39 14 40 3 40 11 40 16 41 12 41 4 41 17 42 18 42 2 42 17 43 8 43 5 43 19 44 11 44 2 44 18 45 5 45 12 45 17 46 7 46 11 46 19 47 12 47 8 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="GD_mesh" name="GD_mesh" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0.1961871 0 1 -1.62921e-7 -0.2131239 0 0 0 1</matrix>
+        <instance_geometry url="#GD_mesh_002-mesh" name="GD_mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="None_002-material" target="#None_002-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
